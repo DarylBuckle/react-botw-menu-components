@@ -1,7 +1,13 @@
-import { ExampleComponent } from '.'
+import { BotwGridMenu, BotwTabs } from '.'
 
-describe('ExampleComponent', () => {
+describe('BotwGridMenu', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(BotwGridMenu).toBeTruthy()
+  })
+})
+
+describe('BotwTabs', () => {
+  it('is truthy', () => {
+    expect(BotwTabs).toBeTruthy()
   })
 })
